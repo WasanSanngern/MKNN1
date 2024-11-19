@@ -7,7 +7,7 @@ st.header("🌸Website Developing using Python🌸")
 st.subheader("Wasan Sanngern")
 
 st.image('./img/wasan01.jpg')
-st.subheader("Wasan Sanngern")
+st.subheader("Wasan Sanngern🌻🌻")
 
 dt=pd.read_csv('./data/iris-3.csv')
 st.header("🍀ข้อมูลดอกไม้🍀")
