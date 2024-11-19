@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-st.header('Wasan')
+st.header('🍁Wasan Sanngern🍁')
 st.image("./img/wasan01.jpg")
 col1, col2, col3 = st.columns(3)
 
