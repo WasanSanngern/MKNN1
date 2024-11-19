@@ -67,10 +67,10 @@ st.pyplot(fig1)
 
 st.write('ค่าน้อยที่สุด')
 cl31,cl32,cl33,cl34=st.columns(4)
-cl31.write(dt['sepal.length'].min())
-cl32.write(dt['sepal.width'].min())
-cl33.write(dt['petal.length'].min())
-cl34.write(dt['petal.width'].min())
+cl31.write(dt['sepallength'].min())
+cl32.write(dt['sepalwidth'].min())
+cl33.write(dt['petallength'].min())
+cl34.write(dt['petalwidth'].min())
 
 st.write("Line_Chart")
 cc=[3,8,1,10]
