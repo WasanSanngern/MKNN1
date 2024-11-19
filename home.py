@@ -27,15 +27,15 @@ b=dt['sepalwidth'].sum()
 c=dt['petallength'].sum()
 d=dt['petalwidth'].sum()
 dx=[a,b,c,d]
-cx=pd.DataFrame(dx,index=["sepal.length", "sepal.width", "petal.length","petal.width"])
+cx=pd.DataFrame(dx,index=["sepallength", "sepalwidth", "petallength","petalwidth"])
 st.bar_chart(cx)
 
 st.write('ค่าเฉลี่ย')
 cl11,cl12,cl13,cl14=st.columns(4)
-cl11.write(dt['sepal.length'].mean())
-cl12.write(dt['sepal.width'].mean())
-cl13.write(dt['petal.length'].mean())
-cl14.write(dt['petal.width'].mean())
+cl11.write(dt['sepallength'].mean())
+cl12.write(dt['sepalwidth'].mean())
+cl13.write(dt['petallength'].mean())
+cl14.write(dt['petalwidth'].mean())
 
 st.write("Area_Chart")
 a=dt['sepallength'].mean()
@@ -43,7 +43,7 @@ b=dt['sepalwidth'].mean()
 c=dt['petallength'].mean()
 d=dt['petalwidth'].mean()
 dxt=[a,b,c,d]
-cxx=pd.DataFrame(dxt,index=["sepal.length", "sepal.width", "petal.length","petal.width"])
+cxx=pd.DataFrame(dxt,index=["sepallength", "sepalwidth", "petallength","petalwidth"])
 st.area_chart(cxx)
 
 
